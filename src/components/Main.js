@@ -53,8 +53,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
-          <img src=''></img>    
+          <h2 className="major">Projects</h2>   
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
@@ -104,29 +103,29 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="labeled-icons">
+            <li>
+              <h3 className="icon fa-home">
+                <span className="label">Address</span>
+              </h3>
+              1708 Harvard Dr.
+              <br />
+              Louisville, KY 40205
+              <br />
+              United States
+            </li>
               <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  1708 Harvard Dr.
-                  <br />
-                  Louisville, KY 40205
-                  <br />
-                  United States
-                </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  502-409-1552
-                </li>
-                <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  vkokojanjr@gmail.com
-                </li>
-              </ul>
+                <h3 className="icon fa-mobile">
+                  <span className="label">Phone</span>
+                </h3>
+                502-409-1552
+              </li>
+              <li>
+                <h3 className="icon fa-envelope-o">
+                  <span className="label">Email</span>
+                </h3>
+              <a href="mailto:vkokojanjr@gmail.com">vkokojanjr@gmail.com</a>
+            </li>
+          </ul>
           <ul className="icons">
             <li>
               <a
@@ -137,6 +136,14 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
+              <a
+                href="https://github.com/vin23-dev"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
               <a href="https://www.facebook.com/vinnie.kokojan/" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
@@ -144,14 +151,6 @@ class Main extends React.Component {
             <li>
               <a href="https://www.instagram.com/vinniekokojan/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/vin23-dev"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
               </a>
             </li>
           </ul>
