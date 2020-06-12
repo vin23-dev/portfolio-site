@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -42,8 +40,8 @@ class Main extends React.Component {
           </p>
           <p>
             If you are reading this, that means you have made it all the way to my personal portfolio
-            site! I appreciate you taking time out of your day to check it out! Feel free to check
-            out some of my work <a href="#work">here</a>.
+            site! I appreciate you taking time out of your day to check it out! Feel free to browse
+            some of my work <a href="#work">here</a>.
           </p>
           {close}
         </article>
@@ -56,9 +54,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <img src=''></img>    
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
@@ -107,6 +103,30 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
+          <ul className="labeled-icons">
+              <li>
+                  <h3 className="icon fa-home">
+                    <span className="label">Address</span>
+                  </h3>
+                  1708 Harvard Dr.
+                  <br />
+                  Louisville, KY 40205
+                  <br />
+                  United States
+                </li>
+                <li>
+                  <h3 className="icon fa-mobile">
+                    <span className="label">Phone</span>
+                  </h3>
+                  502-409-1552
+                </li>
+                <li>
+                  <h3 className="icon fa-envelope-o">
+                    <span className="label">Email</span>
+                  </h3>
+                  vkokojanjr@gmail.com
+                </li>
+              </ul>
           <ul className="icons">
             <li>
               <a

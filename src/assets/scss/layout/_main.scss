@@ -109,3 +109,32 @@
 			}
 		}
 	}
+
+	.labeled-icons {
+		list-style: none;
+		padding: 0;
+
+		li {
+			line-height: 1.75em;
+			margin: 1.5em 0 0 0;
+			padding-left: 2.25em;
+			position: relative;
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			a {
+				color: inherit;
+			}
+
+			h3 {
+				color: _palette(fg-light);
+				left: 0;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 1em;
+			}
+		}
+	}

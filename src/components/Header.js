@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Vincent Kokojan</h1>
         <p>
-          HTML. CSS. JavaScript. NODEJS. ExpressJS. ReactJS. <br/> MongoDB. Python. Django. PostgreSQL.
+          HTML. CSS. JavaScript. NODEJS. ExpressJS. ReactJS. <br/> Mongoose. MongoDB. Python. Django. PostgreSQL.
         </p>
       </div>
     </div>
