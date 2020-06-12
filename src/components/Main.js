@@ -28,29 +28,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">Introduction</h2>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Hello! My name is Vincent Kokojan, but everyone who knows me calls me Vinnie.
+            I am a software developer from Louisville, Kentucky. I graduated from the University 
+            of Louisville with a Bachelor's of Science in Finance and have been working
+            in the entertainment industry, specifically theatrical production. I have
+            always been passionate about new technologies as my main hobby which is why recently I 
+            decided to attend the Software Engineering Immersive bootcamp at General Assembly 
+            in Austin, Texas. I feel that all of the in-class projects, personal projects, and hackathons at 
+            General Assembly as well as my own persuit of knowledge has prepared me for my career pivot into
+            the tech space and I could not be more excited to continue my journey.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            If you are reading this, that means you have made it all the way to my personal portfolio
+            site! I appreciate you taking time out of your day to check it out! Feel free to check
+            out some of my work <a href="#work">here</a>.
           </p>
           {close}
         </article>
