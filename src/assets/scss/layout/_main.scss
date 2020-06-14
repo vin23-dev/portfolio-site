@@ -18,6 +18,7 @@
 		z-index: 3;
 		display: none;
 
+		
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
@@ -85,7 +86,6 @@
 					}
 				}
 			}
-
 		}
 
 		@include breakpoint(small) {
@@ -138,3 +138,4 @@
 			}
 		}
 	}
+

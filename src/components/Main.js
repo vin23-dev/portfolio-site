@@ -1,5 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import jobtrackerintro from '../images/jobtrackerintro.jpg'
+import travelapppic from '../images/travelapppic.jpg'
+import festivaltrackerpic from '../images/festivaltrackerpic.jpg'
 
 
 class Main extends React.Component {
@@ -53,21 +56,28 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>   
+          <h2 className="major">Projects</h2>
+          <a className="image main" href="https://job-tracker-capstone.herokuapp.com/login"><img src={jobtrackerintro}/></a>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          My software development job tracker is an application developed with React.js, Node.js, and Express.js.
+          It allows the user to signup and and create a collection of jobs they have applied to during their job 
+          search, based company, position, location, date posted, date applied, and estimated salary. Click <a href="https://github.com/vin23-dev/ga-capstone-project">here</a> to 
+          see the code or on the image above to navigate to the heroku deployment.
           </p>
+          <a className="image main" href="https://into-the-unknown.herokuapp.com/"><img src={travelapppic}/></a>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          Into the Unknown is an app developed with Python and the Django framework. It allows the user to signup, 
+          login and then add places they have been to based on country, state/province, city, and description. It 
+          also allows the user to leave comments and ratings on certain locations once they have been created. This
+          was a group project designed to practice git workflow. Click <a href="https://github.com/skylarw19/into-the-unknown">here</a> to 
+          see the code or on the image above to navigate to the heroku deployment.
+          </p>
+          <a className="image main" href="https://festival-tracker.herokuapp.com/users"><img src={festivaltrackerpic}/></a>
+          <p>
+          Festival tracker that allows the addition of new festivals that I have attended, specified by name, location, 
+          number of years attended, links to the festival website, comments, and the ability to edit inputs.
+          Click <a href="https://github.com/vin23-dev/SEIproject2">here</a> to 
+          see the code or on the image above to navigate to the heroku deployment.
           </p>
           {close}
         </article>
