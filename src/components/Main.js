@@ -116,26 +116,16 @@ class Main extends React.Component {
           </form>
           <ul className="labeled-icons">
             <li>
-              <h3 className="icon fa-home">
-                <span className="label">Address</span>
+              <h3 className="icon fa-mobile">
+                <span className="label">Phone</span>
               </h3>
-              1708 Harvard Dr.
-              <br />
-              Louisville, KY 40205
-              <br />
-              United States
+              502-409-1552
             </li>
-              <li>
-                <h3 className="icon fa-mobile">
-                  <span className="label">Phone</span>
-                </h3>
-                502-409-1552
-              </li>
-              <li>
-                <h3 className="icon fa-envelope-o">
-                  <span className="label">Email</span>
-                </h3>
-              <a href="mailto:vkokojanjr@gmail.com">vkokojanjr@gmail.com</a>
+            <li>
+              <h3 className="icon fa-envelope-o">
+                <span className="label">Email</span>
+              </h3>
+            <a href="mailto:vkokojanjr@gmail.com">vkokojanjr@gmail.com</a>
             </li>
           </ul>
           <ul className="icons">
