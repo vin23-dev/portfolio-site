@@ -43,8 +43,8 @@ class Main extends React.Component {
           </p>
           <p>
             If you are reading this, that means you have made it all the way to my personal portfolio
-            site! I appreciate you taking time out of your day to check it out! Feel free to browse
-            some of my work <a href="#work">here</a>.
+            site! I appreciate you taking time out of your day to check it out! Also feel free to browse
+            my GitHub <a href="https://github.com/vin23-dev">here</a>.
           </p>
           {close}
         </article>
@@ -90,7 +90,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
